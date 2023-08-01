@@ -445,6 +445,8 @@ else()
       -Wno-thread-safety-negative
       -Wno-unused-template
       -Wno-weak-vtables
+      -Wno-suggest-override
+      -Wno-suggest-destructor-override
     )
 
     target_compile_definitions(${MODULE} PRIVATE
